@@ -50,11 +50,11 @@ function_3 = st.Page(
 pg = st.navigation(
     {
         "About this application": [app_purpose , app_description_ArM , app_description_BPMN , xsd],
-        "TESTING": [testing],
+        #"TESTING": [testing],
         "Application functions": [
             download,
             parsing,
-            function_3,
+            #function_3,
             ]
     }
 )
